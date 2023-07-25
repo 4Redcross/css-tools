@@ -14,7 +14,8 @@ Check out the implementation directly on [codepen](https://codepen.io/4redcross/
 This functionality will allow you to use preview all fonts offered by Google Fonts which are fetched by the Web Developer Fonts API. 
 - Creates a new link element and appends it to head
 - If a new font is selected, the previous font link element is removed
-- Be sure to **replace your API KEY** in the js file
 - You can get your own [API KEY](https://developers.google.com/fonts/docs/developer_api) for free
+
+> Be sure to **replace your API KEY ** inside the js file
 
 Check out the implementation directly on [codepen](https://codepen.io/4redcross/pen/MWzqVbb)
