@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Abhijeet Pawar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Google Fonts selector</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <h2 style="text-align: center">Dynamic Google fonts</h2>
+      <hr class="hr hr-blurry" />
+      <br />
+      <div>
+        <label for="fontSelector"> Select a Font :</label>
+        <select id="fontSelector"></select>
+      </div>
+      <div class="grid-container">
+        <div class="grid-child">How it looks &#8674;</div>
+        <div class="grid-child" id="selectedFont"></div>
+      </div>
+      <br />
+      <hr class="hr hr-blurry" />
+      <ul>
+        <li>
+          This functionality automatically fetches all the available Google
+          fonts using Google API.
+        </li>
+        <li>
+          The js automatically adds a link element to head when new font is
+          selected and delete the previously loaded font if any from head.
+        </li>
+        <li>
+          <strong>
+            Please be sure to replace the API key in js. Get your own API key
+            <a href="https://developers.google.com/fonts/docs/developer_api">
+              from here
+            </a></strong
+          >
+        </li>
+      </ul>
+      <p>
+        designed by
+        <strong
+          ><a href="https://github.com/4Redcross">Abhijeet Pawar</a></strong
+        >
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
