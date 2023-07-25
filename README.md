@@ -16,6 +16,6 @@ This functionality will allow you to use preview all fonts offered by Google Fon
 - If a new font is selected, the previous font link element is removed
 - You can get your own [API KEY](https://developers.google.com/fonts/docs/developer_api) for free
 
-> Be sure to **replace your API KEY ** inside the js file
+> Be sure to **replace your API KEY** inside the js file
 
 Check out the implementation directly on [codepen](https://codepen.io/4redcross/pen/MWzqVbb)
