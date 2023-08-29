@@ -19,3 +19,9 @@ This functionality will allow you to use preview all fonts offered by Google Fon
 > Be sure to **replace your API KEY** inside the js file
 
 Check out the implementation directly on [codepen](https://codepen.io/4redcross/pen/MWzqVbb)
+
+## 3. Input field length
+- This small code snippet along with the necessary css will help you display the number of characters inside input field
+- The number is displayed within the input field itself
+- If 'maxlength' attribute is mentioned, it will also be included in number
+
