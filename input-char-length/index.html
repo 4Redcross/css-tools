@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Abhijeet Pawar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Input length for fields</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+    
+</head>
+<body>
+    <div class="card">
+        <h2 style="text-align: center">Input field length</h2>
+        <hr />
+        <br />
+
+
+        <label for="name">Full Name: </label>
+        <input class="test display-length" type="text" name="name" id="name" placeholder="Enter your name" maxlength="30">
+        <label for="phone">Phone Number: </label>
+        <input class="test2 display-length" type="tel" name="phone" id="phone" placeholder="Enter number" maxlength="15">
+        <label for="address">Address: </label>
+        <input class="test2 display-length" type="text" name="address" id="address" placeholder="Enter your address" maxlength="100">
+        <label for="message">Message: </label>
+        <textarea class="test3 display-length" type="text" name="message" id="message" placeholder="Leave a comment for us!" maxlength="500"></textarea>
+
+        <br />
+      <hr class="hr hr-blurry" />
+      <ul>
+        <li>
+          This functionality will display the current character length of the input/ textarea field.
+        </li>
+        <li>
+          Simply include the "display-length" class in the input/ textarea field and define the max-length attribute.
+        </li>
+        <li>
+          Include this cdn-js file and you are good to go.
+        </li>
+      </ul>
+      <p>designed by<strong><a href="https://github.com/4Redcross"> Abhijeet Pawar</a></strong></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
